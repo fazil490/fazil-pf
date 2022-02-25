@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+:root {
+    --primary-color: #009688;
+    --dark-grey: #607d8b;
+    --light-grey: #eceff1;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.primary-link{
+    text-decoration: none;
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+.secondary-link{
+    text-decoration: none;
+    padding: 0.5rem;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    border-radius: 0.5rem;
+}
+
+/* nav bar */
+
+.nav-bar {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+
+.nav-brand {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav-list {
+    text-align: right;
+}
+
+.nav-list-item {
+    font-size: 1.2rem;
+    display: inline;
+    padding: 0 1rem;
+}
+
+.nav-bar .link {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-bar .link-active{
+    font-weight: bold;
+}
+
+/* header */
+
+.hero{
+    padding: 2rem;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    line-height: 2rem;
+}
+
+.hero-img{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.hero-heading{
+    color: var(--primary-color);
+    padding-top: 1rem;
+}
+
+.hero-desc{
+    color: var(--dark-grey);
+}
+
+/* technologies */
+
+.grey-section{
+    background-color: var(--light-grey);
+    border-radius: 1rem;
+    max-width: 600px;
+    margin: auto;
+    padding: 2rem;
+    text-align: center;
+    line-height: 2rem;
+}
+.techs{
+    text-align: center;
+    line-height: 2rem;
+}
+
+.grey-heading{
+    color: var(--primary-color);
+}
+
+/* projects and blogs */
+
+.white-section{
+    padding: 2rem;
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
+    line-height: 2rem;
+}
+
+.projects{
+    padding: 1rem;
+}
+.projects-heading{
+    color: var(--primary-color);
+}
+
+.blogs{
+    padding: 1rem;
+}
+.blogs-heading{
+    color: var(--primary-color);
+}
+
+
+/* footer */
+
+.footer{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+}
+
+.footer-list{
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.footer-list-item{
+    display: inline;
+    padding: 1rem;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
