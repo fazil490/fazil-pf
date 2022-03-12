@@ -124,6 +124,10 @@ body {
     color: var(--primary-color);
 }
 
+span{
+    font-weight: bold;
+}
+
 .blogs{
     padding: 1rem;
 }
