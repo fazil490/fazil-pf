@@ -124,6 +124,20 @@ body {
     color: var(--primary-color);
 }
 
+.preview-image-web {
+    width: 300px;
+    height: 150px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.preview-image-mob {
+    width: 100px;
+    height: 150px;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
 span{
     font-weight: bold;
 }
